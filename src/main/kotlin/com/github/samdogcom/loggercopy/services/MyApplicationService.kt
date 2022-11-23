@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.samdogcom.loggercopy.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.samdogcom.loggercopy.MyBundle
 
 class MyApplicationService {
 
