@@ -16,11 +16,12 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
+## Features
+- Copy the output of the [orhanobut logger](https://github.com/orhanobut/logger).
+- Because the logger dividers are too long then cut some char.
+- Delete redundant text before the logger divider, such as date, tag etc.
+- Append the content of the long logger.  
+  Long logger must start with <kbd>Request Body [</kbd> or <kbd>Received response json string [</kbd>
 <!-- Plugin description end -->
 
 ## Installation
